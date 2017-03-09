@@ -5,11 +5,7 @@ import './home.style.css';
 let homeComponent = {
     template,
     controller,
-    replace: true,
-    bindings: {
-        columns: '<',
-        data: '='
-    }
+    replace: true
 };
 
 export default homeComponent;

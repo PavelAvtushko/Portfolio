@@ -121,12 +121,14 @@ nav {
 
 main > a {
     width: 29%;
-    height: 150px;
+    height: 300px;
     overflow: hidden;
-    background: #396cbf;
+    border: 5px solid #396cbf;
     float: left;
     margin: 2%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    color: black;
 }
 
 main > a h4 {
