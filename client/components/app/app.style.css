@@ -121,7 +121,7 @@ nav {
 
 main > a {
     width: 29%;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
     border: 5px solid #396cbf;
     float: left;
@@ -159,4 +159,13 @@ main > a:hover {
 
 .person > ul>li:not(:nth-child(1)){
     border-top: 2px solid black;
+}
+
+.person a {
+    color: grey;
+    text-decoration: underline;
+}
+
+.person a:hover {
+    color: black;
 }

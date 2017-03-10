@@ -1,5 +1,5 @@
 .cards img {
-    height: 150px;
+    height: 120px;
     border: 2px grey solid;
 }
 
@@ -7,3 +7,9 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.cards li {
+    text-align: left;
+    margin-left: 20px;
+}
+
