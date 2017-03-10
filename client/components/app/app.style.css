@@ -63,7 +63,7 @@ li {
 }
 
 header {
-    background: #1655bc;
+    background: #337ab7;
     display: flex;
     flex-direction:row;
     align-items: center;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 footer {
-    background: #1655bc;
+    background: #337ab7;
     height: 100px;
     position: absolute;
     margin-top: -100px;
@@ -111,19 +111,20 @@ nav > a {
 }
 
 nav > a:hover {
-    background: #2c3a51;
+    background: #269abc;
+    color: white;
 }
 
 nav {
     border-top: 1px white solid;
-    background: #1655bc;
+    background: #337ab7;
 }
 
 main > a {
     width: 29%;
     height: 350px;
     overflow: hidden;
-    border: 5px solid #396cbf;
+    border: 2px solid #337ab7;
     float: left;
     margin: 2%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -145,12 +146,12 @@ main > a p {
 
 
 main > a:hover {
-    background: #5586d6;
+    background: #31b0d5;
     color: white;
 }
 
 .person {
-    color: blue;
+    color: #286090;
 }
 
 .person li{
